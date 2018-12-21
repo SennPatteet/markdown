@@ -59,6 +59,7 @@ li a {
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 /* Change the link color on hover */
