@@ -1,0 +1,93 @@
+
+body {
+  background-image: url("../img/cubes.png");
+}
+
+#container {
+  margin: 0 auto;
+  width: 55%;
+  margin-left: 33%;
+}
+
+#container * {
+  font-family: 'Share Tech Mono', monospace;
+  color: #516365;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+/* ------------------------------------- NAVIGATION -----------------------------------*/
+
+nav {
+    position: fixed;
+    top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 256px;
+    height: 97%;
+    background-color: #BDD7D6;
+}
+
+nav ul li a {
+  display: inline-block;
+  margin-right: 0px;
+  width: 224px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #BDD7D6;
+  color: #516365;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #BDD7D6;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #7F9D9D;
+  color: white;
+}
+
+/* ------------------------------------- LIST -----------------------------------*/
+
+.behaaglijk {
+    font-family: 'Share Tech Mono', monospace;
+    color: #516365;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    padding: 5%;
+    padding-top: 0px;
+}
+
+.behaaglijk li{
+  line-height: 2;
+}
+
+.wezijn {
+  background-color: #BDD7D6;
+  line-height: 1.5;
+}
+
+.wezijn p {
+  padding-top: 5%;
+}

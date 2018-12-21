@@ -28,6 +28,11 @@ h2 {
   font-family: helvetica, arial;
 }
 
+section h2 {
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
 /* ------------------------------------- NAVIGATION -----------------------------------*/
 
 nav {
@@ -78,6 +83,7 @@ li a:hover {
   text-align: center;
 }
 
+
 .opsomming label {
   font-family: 'Share Tech Mono', monospace;
   color: #516365;
@@ -86,6 +92,7 @@ li a:hover {
 .opsomming div {
   display: inline-block;
   padding: 20px;
+  padding-top: 10px;
 }
 
 /* ------------------------------------- FLEX GIT -----------------------------------*/
